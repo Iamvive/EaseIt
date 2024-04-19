@@ -26,7 +26,9 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             //put your multiplatform dependencies here
-            implementation(projects.ui)
+        }
+        androidMain.dependencies {
+            implementation(libs.compose.ui)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

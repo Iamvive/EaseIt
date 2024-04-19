@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 rootProject.name = "EaseIt"
 include(":androidApp")
 include(":shared")
+include(":ui")
